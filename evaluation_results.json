@@ -1,0 +1,1685 @@
+{
+  "config": {
+    "dataset_path": "/Users/vinayakgoswamy/Downloads/images",
+    "images_per_class": 5,
+    "random_seed": 42
+  },
+  "overall": {
+    "total_images": 125,
+    "evaluated": 125,
+    "top1_accuracy": 0.672,
+    "top3_accuracy": 0.656
+  },
+  "per_class": {
+    "BEANS": {
+      "top1": 4,
+      "top3": 4,
+      "total": 5
+    },
+    "CAKE": {
+      "top1": 3,
+      "top3": 2,
+      "total": 5
+    },
+    "CANDY": {
+      "top1": 1,
+      "top3": 1,
+      "total": 5
+    },
+    "CEREAL": {
+      "top1": 3,
+      "top3": 2,
+      "total": 5
+    },
+    "CHIPS": {
+      "top1": 4,
+      "top3": 4,
+      "total": 5
+    },
+    "CHOCOLATE": {
+      "top1": 4,
+      "top3": 4,
+      "total": 5
+    },
+    "COFFEE": {
+      "top1": 5,
+      "top3": 5,
+      "total": 5
+    },
+    "CORN": {
+      "top1": 5,
+      "top3": 5,
+      "total": 5
+    },
+    "FISH": {
+      "top1": 0,
+      "top3": 0,
+      "total": 5
+    },
+    "FLOUR": {
+      "top1": 5,
+      "top3": 5,
+      "total": 5
+    },
+    "HONEY": {
+      "top1": 5,
+      "top3": 5,
+      "total": 5
+    },
+    "JAM": {
+      "top1": 3,
+      "top3": 3,
+      "total": 5
+    },
+    "JUICE": {
+      "top1": 3,
+      "top3": 3,
+      "total": 5
+    },
+    "MILK": {
+      "top1": 5,
+      "top3": 5,
+      "total": 5
+    },
+    "NUTS": {
+      "top1": 2,
+      "top3": 2,
+      "total": 5
+    },
+    "OIL": {
+      "top1": 5,
+      "top3": 5,
+      "total": 5
+    },
+    "PASTA": {
+      "top1": 3,
+      "top3": 3,
+      "total": 5
+    },
+    "RICE": {
+      "top1": 5,
+      "top3": 5,
+      "total": 5
+    },
+    "SODA": {
+      "top1": 1,
+      "top3": 1,
+      "total": 5
+    },
+    "SPICES": {
+      "top1": 1,
+      "top3": 1,
+      "total": 5
+    },
+    "SUGAR": {
+      "top1": 4,
+      "top3": 4,
+      "total": 5
+    },
+    "TEA": {
+      "top1": 4,
+      "top3": 4,
+      "total": 5
+    },
+    "TOMATO_SAUCE": {
+      "top1": 0,
+      "top3": 0,
+      "total": 5
+    },
+    "VINEGAR": {
+      "top1": 4,
+      "top3": 4,
+      "total": 5
+    },
+    "WATER": {
+      "top1": 5,
+      "top3": 5,
+      "total": 5
+    }
+  },
+  "per_image": [
+    {
+      "index": 1,
+      "class": "BEANS",
+      "image": "/Users/vinayakgoswamy/Downloads/images/BEANS/BEANS0028.png",
+      "top1_correct": false,
+      "top3_correct": false,
+      "identified": [],
+      "error": null
+    },
+    {
+      "index": 2,
+      "class": "BEANS",
+      "image": "/Users/vinayakgoswamy/Downloads/images/BEANS/BEANS0006.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Haricot Beans",
+        "Tomatoes",
+        "Chilli (spice blend or peppers)",
+        "Sugar",
+        "Salt",
+        "Water"
+      ],
+      "error": null
+    },
+    {
+      "index": 3,
+      "class": "BEANS",
+      "image": "/Users/vinayakgoswamy/Downloads/images/BEANS/BEANS0070.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "White Beans",
+        "Carrots",
+        "Onions",
+        "Sugar",
+        "Salt",
+        "White Wine Vinegar",
+        "Parsley",
+        "Thyme",
+        "Seasoning (Speisew\u00fcrze)",
+        "Natural Flavoring"
+      ],
+      "error": null
+    },
+    {
+      "index": 4,
+      "class": "BEANS",
+      "image": "/Users/vinayakgoswamy/Downloads/images/BEANS/BEANS0062.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "White Giant Beans",
+        "Water",
+        "Salt",
+        "Ascorbic Acid"
+      ],
+      "error": null
+    },
+    {
+      "index": 5,
+      "class": "BEANS",
+      "image": "/Users/vinayakgoswamy/Downloads/images/BEANS/BEANS0057.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Kidney Beans"
+      ],
+      "error": null
+    },
+    {
+      "index": 6,
+      "class": "CAKE",
+      "image": "/Users/vinayakgoswamy/Downloads/images/CAKE/CAKE0035.png",
+      "top1_correct": false,
+      "top3_correct": false,
+      "identified": [
+        "Dr. Oetker Zitronen Kuchen Backmischung"
+      ],
+      "error": null
+    },
+    {
+      "index": 7,
+      "class": "CAKE",
+      "image": "/Users/vinayakgoswamy/Downloads/images/CAKE/CAKE0026.png",
+      "top1_correct": true,
+      "top3_correct": false,
+      "identified": [
+        "Chocolate Chips",
+        "Muffin Batter",
+        "Whipped Cream",
+        "Cake Batter (plain)",
+        "Cocoa Powder",
+        "Powdered Sugar",
+        "Chocolate Cake/Brownie Base"
+      ],
+      "error": null
+    },
+    {
+      "index": 8,
+      "class": "CAKE",
+      "image": "/Users/vinayakgoswamy/Downloads/images/CAKE/CAKE0139.png",
+      "top1_correct": false,
+      "top3_correct": false,
+      "identified": [
+        "Lemon Muffins",
+        "White Glaze",
+        "Lemon slice",
+        "Chocolate Muffins",
+        "Chocolate Glaze",
+        "Blueberry Muffins"
+      ],
+      "error": null
+    },
+    {
+      "index": 9,
+      "class": "CAKE",
+      "image": "/Users/vinayakgoswamy/Downloads/images/CAKE/CAKE0022.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Lemon Baking Mix",
+        "Cake",
+        "Powdered Sugar",
+        "Lemon (flavoring)"
+      ],
+      "error": null
+    },
+    {
+      "index": 10,
+      "class": "CAKE",
+      "image": "/Users/vinayakgoswamy/Downloads/images/CAKE/CAKE0151.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Cheesecake",
+        "Crumb Cake"
+      ],
+      "error": null
+    },
+    {
+      "index": 11,
+      "class": "CANDY",
+      "image": "/Users/vinayakgoswamy/Downloads/images/CANDY/CANDY0216.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Maoam Kracher Blue Candy"
+      ],
+      "error": null
+    },
+    {
+      "index": 12,
+      "class": "CANDY",
+      "image": "/Users/vinayakgoswamy/Downloads/images/CANDY/CANDY0016.png",
+      "top1_correct": false,
+      "top3_correct": false,
+      "identified": [
+        "Fruit Gummy Bears"
+      ],
+      "error": null
+    },
+    {
+      "index": 13,
+      "class": "CANDY",
+      "image": "/Users/vinayakgoswamy/Downloads/images/CANDY/CANDY0015.png",
+      "top1_correct": false,
+      "top3_correct": false,
+      "identified": [
+        "Haribo Goldbears Gummy Candies"
+      ],
+      "error": null
+    },
+    {
+      "index": 14,
+      "class": "CANDY",
+      "image": "/Users/vinayakgoswamy/Downloads/images/CANDY/CANDY0047.png",
+      "top1_correct": false,
+      "top3_correct": false,
+      "identified": [
+        "Haribo Fizz Pasta-Frutta Gummy Candies"
+      ],
+      "error": null
+    },
+    {
+      "index": 15,
+      "class": "CANDY",
+      "image": "/Users/vinayakgoswamy/Downloads/images/CANDY/CANDY0111.png",
+      "top1_correct": false,
+      "top3_correct": false,
+      "identified": [
+        "Em-eukal Salbei (Sage) Cough Drops",
+        "Em-eukal Klassisch (Classic) Cough Drops"
+      ],
+      "error": null
+    },
+    {
+      "index": 16,
+      "class": "CEREAL",
+      "image": "/Users/vinayakgoswamy/Downloads/images/CEREAL/CEREAL0119.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Choco Shells Cereal"
+      ],
+      "error": null
+    },
+    {
+      "index": 17,
+      "class": "CEREAL",
+      "image": "/Users/vinayakgoswamy/Downloads/images/CEREAL/CEREAL0258.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Muesli mix",
+        "Rolled Oats",
+        "Cereal Flakes"
+      ],
+      "error": null
+    },
+    {
+      "index": 18,
+      "class": "CEREAL",
+      "image": "/Users/vinayakgoswamy/Downloads/images/CEREAL/CEREAL0013.png",
+      "top1_correct": false,
+      "top3_correct": false,
+      "identified": [
+        "Muesli (base mix)",
+        "Ovaltine (chocolate malt flavor)",
+        "Dark Chocolate Pieces",
+        "Hazelnuts",
+        "Milk"
+      ],
+      "error": null
+    },
+    {
+      "index": 19,
+      "class": "CEREAL",
+      "image": "/Users/vinayakgoswamy/Downloads/images/CEREAL/CEREAL0101.png",
+      "top1_correct": false,
+      "top3_correct": false,
+      "identified": [
+        "Wheat",
+        "Chocolate",
+        "Honey"
+      ],
+      "error": null
+    },
+    {
+      "index": 20,
+      "class": "CEREAL",
+      "image": "/Users/vinayakgoswamy/Downloads/images/CEREAL/CEREAL0214.png",
+      "top1_correct": true,
+      "top3_correct": false,
+      "identified": [
+        "Whole grain oat flakes",
+        "Raisins",
+        "Cornflakes",
+        "Whole grain spelt flakes",
+        "Dried apple pieces",
+        "Banana chips",
+        "Sunflower seeds",
+        "Hazelnuts",
+        "Linseed / Flaxseed",
+        "Wheat flakes",
+        "Rice extrudate",
+        "Barley malt extract",
+        "Muesli/Cereal mix"
+      ],
+      "error": null
+    },
+    {
+      "index": 21,
+      "class": "CHIPS",
+      "image": "/Users/vinayakgoswamy/Downloads/images/CHIPS/CHIPS0056.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Potato Chips",
+        "Paprika (flavoring)"
+      ],
+      "error": null
+    },
+    {
+      "index": 22,
+      "class": "CHIPS",
+      "image": "/Users/vinayakgoswamy/Downloads/images/CHIPS/CHIPS0114.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Paprika potato chips",
+        "Salted potato chips"
+      ],
+      "error": null
+    },
+    {
+      "index": 23,
+      "class": "CHIPS",
+      "image": "/Users/vinayakgoswamy/Downloads/images/CHIPS/CHIPS0150.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Paprika Potato Chips",
+        "Paprika (flavoring)"
+      ],
+      "error": null
+    },
+    {
+      "index": 24,
+      "class": "CHIPS",
+      "image": "/Users/vinayakgoswamy/Downloads/images/CHIPS/CHIPS0071.png",
+      "top1_correct": false,
+      "top3_correct": false,
+      "identified": [
+        "Potato",
+        "Sunflower Oil",
+        "Salt",
+        "Chili Pepper Seasoning Blend"
+      ],
+      "error": null
+    },
+    {
+      "index": 25,
+      "class": "CHIPS",
+      "image": "/Users/vinayakgoswamy/Downloads/images/CHIPS/CHIPS0001.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Lay's Salted Potato Chips"
+      ],
+      "error": null
+    },
+    {
+      "index": 26,
+      "class": "CHOCOLATE",
+      "image": "/Users/vinayakgoswamy/Downloads/images/CHOCOLATE/CHOCOLATE0081.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Leibniz Pick Up! Black'n White bar",
+        "Biscuit",
+        "Dark Chocolate",
+        "White Chocolate or Cream Filling"
+      ],
+      "error": null
+    },
+    {
+      "index": 27,
+      "class": "CHOCOLATE",
+      "image": "/Users/vinayakgoswamy/Downloads/images/CHOCOLATE/CHOCOLATE0216.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Dark Chocolate",
+        "Raisins (Dried Grapes)",
+        "Hazelnuts",
+        "Jamaican Rum"
+      ],
+      "error": null
+    },
+    {
+      "index": 28,
+      "class": "CHOCOLATE",
+      "image": "/Users/vinayakgoswamy/Downloads/images/CHOCOLATE/CHOCOLATE0174.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Twix chocolate bar",
+        "Mars chocolate bar"
+      ],
+      "error": null
+    },
+    {
+      "index": 29,
+      "class": "CHOCOLATE",
+      "image": "/Users/vinayakgoswamy/Downloads/images/CHOCOLATE/CHOCOLATE0142.png",
+      "top1_correct": false,
+      "top3_correct": false,
+      "identified": [
+        "Oreo cookies"
+      ],
+      "error": null
+    },
+    {
+      "index": 30,
+      "class": "CHOCOLATE",
+      "image": "/Users/vinayakgoswamy/Downloads/images/CHOCOLATE/CHOCOLATE0079.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Milka Alpine Milk Chocolate with Cream-Creme Filling"
+      ],
+      "error": null
+    },
+    {
+      "index": 31,
+      "class": "COFFEE",
+      "image": "/Users/vinayakgoswamy/Downloads/images/COFFEE/COFFEE0110.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Whole Coffee Beans"
+      ],
+      "error": null
+    },
+    {
+      "index": 32,
+      "class": "COFFEE",
+      "image": "/Users/vinayakgoswamy/Downloads/images/COFFEE/COFFEE0172.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Instant Coffee"
+      ],
+      "error": null
+    },
+    {
+      "index": 33,
+      "class": "COFFEE",
+      "image": "/Users/vinayakgoswamy/Downloads/images/COFFEE/COFFEE0052.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Illy Espresso Ground Coffee",
+        "Cellini Instant Espresso Coffee",
+        "Coffee (unspecified brand)"
+      ],
+      "error": null
+    },
+    {
+      "index": 34,
+      "class": "COFFEE",
+      "image": "/Users/vinayakgoswamy/Downloads/images/COFFEE/COFFEE0047.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Coffee capsules"
+      ],
+      "error": null
+    },
+    {
+      "index": 35,
+      "class": "COFFEE",
+      "image": "/Users/vinayakgoswamy/Downloads/images/COFFEE/COFFEE0194.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "M\u00f6venpick Ground Coffee"
+      ],
+      "error": null
+    },
+    {
+      "index": 36,
+      "class": "CORN",
+      "image": "/Users/vinayakgoswamy/Downloads/images/CORN/CORN0012.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Canned Sweet Corn",
+        "Canned Sweet Corn with Chili"
+      ],
+      "error": null
+    },
+    {
+      "index": 37,
+      "class": "CORN",
+      "image": "/Users/vinayakgoswamy/Downloads/images/CORN/CORN0045.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Sweet Corn (canned)",
+        "Chili (canned)"
+      ],
+      "error": null
+    },
+    {
+      "index": 38,
+      "class": "CORN",
+      "image": "/Users/vinayakgoswamy/Downloads/images/CORN/CORN0044.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Canned Whole Kernel Corn",
+        "Chili"
+      ],
+      "error": null
+    },
+    {
+      "index": 39,
+      "class": "CORN",
+      "image": "/Users/vinayakgoswamy/Downloads/images/CORN/CORN0077.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Canned Corn Cobs"
+      ],
+      "error": null
+    },
+    {
+      "index": 40,
+      "class": "CORN",
+      "image": "/Users/vinayakgoswamy/Downloads/images/CORN/CORN0033.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Canned corn on the cob",
+        "Canned kidney beans"
+      ],
+      "error": null
+    },
+    {
+      "index": 41,
+      "class": "FISH",
+      "image": "/Users/vinayakgoswamy/Downloads/images/FISH/FISH0103.png",
+      "top1_correct": false,
+      "top3_correct": false,
+      "identified": [
+        "Tuna Fillets"
+      ],
+      "error": null
+    },
+    {
+      "index": 42,
+      "class": "FISH",
+      "image": "/Users/vinayakgoswamy/Downloads/images/FISH/FISH0005.png",
+      "top1_correct": false,
+      "top3_correct": false,
+      "identified": [
+        "Tuna Fillets",
+        "Sunflower Oil",
+        "Lemon",
+        "Parsley"
+      ],
+      "error": null
+    },
+    {
+      "index": 43,
+      "class": "FISH",
+      "image": "/Users/vinayakgoswamy/Downloads/images/FISH/FISH0093.png",
+      "top1_correct": false,
+      "top3_correct": false,
+      "identified": [
+        "Herring fillets",
+        "Tomato sauce",
+        "Fresh herbs (likely dill or parsley)"
+      ],
+      "error": null
+    },
+    {
+      "index": 44,
+      "class": "FISH",
+      "image": "/Users/vinayakgoswamy/Downloads/images/FISH/FISH0058.png",
+      "top1_correct": false,
+      "top3_correct": false,
+      "identified": [
+        "Tuna Fillets",
+        "Sunflower Oil"
+      ],
+      "error": null
+    },
+    {
+      "index": 45,
+      "class": "FISH",
+      "image": "/Users/vinayakgoswamy/Downloads/images/FISH/FISH0068.png",
+      "top1_correct": false,
+      "top3_correct": false,
+      "identified": [
+        "Sardines",
+        "Chili"
+      ],
+      "error": null
+    },
+    {
+      "index": 46,
+      "class": "FLOUR",
+      "image": "/Users/vinayakgoswamy/Downloads/images/FLOUR/FLOUR0015.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Organic Wheat Flour"
+      ],
+      "error": null
+    },
+    {
+      "index": 47,
+      "class": "FLOUR",
+      "image": "/Users/vinayakgoswamy/Downloads/images/FLOUR/FLOUR0048.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Instant Flour"
+      ],
+      "error": null
+    },
+    {
+      "index": 48,
+      "class": "FLOUR",
+      "image": "/Users/vinayakgoswamy/Downloads/images/FLOUR/FLOUR0010.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Wheat Flour"
+      ],
+      "error": null
+    },
+    {
+      "index": 49,
+      "class": "FLOUR",
+      "image": "/Users/vinayakgoswamy/Downloads/images/FLOUR/FLOUR0070.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Wheat Flour (Type 405)"
+      ],
+      "error": null
+    },
+    {
+      "index": 50,
+      "class": "FLOUR",
+      "image": "/Users/vinayakgoswamy/Downloads/images/FLOUR/FLOUR0037.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Wheat Flour"
+      ],
+      "error": null
+    },
+    {
+      "index": 51,
+      "class": "HONEY",
+      "image": "/Users/vinayakgoswamy/Downloads/images/HONEY/HONEY0160.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Creamy Honey"
+      ],
+      "error": null
+    },
+    {
+      "index": 52,
+      "class": "HONEY",
+      "image": "/Users/vinayakgoswamy/Downloads/images/HONEY/HONEY0158.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Honey or Mead-based spread"
+      ],
+      "error": null
+    },
+    {
+      "index": 53,
+      "class": "HONEY",
+      "image": "/Users/vinayakgoswamy/Downloads/images/HONEY/HONEY0092.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Honey",
+        "Honey",
+        "Honey"
+      ],
+      "error": null
+    },
+    {
+      "index": 54,
+      "class": "HONEY",
+      "image": "/Users/vinayakgoswamy/Downloads/images/HONEY/HONEY0147.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Honey"
+      ],
+      "error": null
+    },
+    {
+      "index": 55,
+      "class": "HONEY",
+      "image": "/Users/vinayakgoswamy/Downloads/images/HONEY/HONEY0049.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Wildflower Honey"
+      ],
+      "error": null
+    },
+    {
+      "index": 56,
+      "class": "JAM",
+      "image": "/Users/vinayakgoswamy/Downloads/images/JAM/JAM0180.png",
+      "top1_correct": false,
+      "top3_correct": false,
+      "identified": [
+        "Fruit spread",
+        "Passionfruit",
+        "Peach or Apricot"
+      ],
+      "error": null
+    },
+    {
+      "index": 57,
+      "class": "JAM",
+      "image": "/Users/vinayakgoswamy/Downloads/images/JAM/JAM0017.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Apricot Jam",
+        "Strawberry Jam",
+        "Fruit Jam (unspecified)"
+      ],
+      "error": null
+    },
+    {
+      "index": 58,
+      "class": "JAM",
+      "image": "/Users/vinayakgoswamy/Downloads/images/JAM/JAM0011.png",
+      "top1_correct": false,
+      "top3_correct": false,
+      "identified": [
+        "Reduced Sugar Apricot Fruit Spread",
+        "Reduced Sugar Sour Cherry Fruit Spread"
+      ],
+      "error": null
+    },
+    {
+      "index": 59,
+      "class": "JAM",
+      "image": "/Users/vinayakgoswamy/Downloads/images/JAM/JAM0169.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Bonne Maman Extra Strawberry Jam",
+        "Strawberry Fruit Spread"
+      ],
+      "error": null
+    },
+    {
+      "index": 60,
+      "class": "JAM",
+      "image": "/Users/vinayakgoswamy/Downloads/images/JAM/JAM0058.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Apricot Fruit Spread",
+        "Red Currant Jelly",
+        "Strawberry-Rhubarb Jam"
+      ],
+      "error": null
+    },
+    {
+      "index": 61,
+      "class": "JUICE",
+      "image": "/Users/vinayakgoswamy/Downloads/images/JUICE/JUICE0148.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Sour Cherry Juice",
+        "Apple-Grape Juice",
+        "Lemon Juice"
+      ],
+      "error": null
+    },
+    {
+      "index": 62,
+      "class": "JUICE",
+      "image": "/Users/vinayakgoswamy/Downloads/images/JUICE/JUICE0040.png",
+      "top1_correct": false,
+      "top3_correct": false,
+      "identified": [
+        "Blackcurrant Nectar",
+        "Redcurrant Nectar",
+        "Mixed Fruit"
+      ],
+      "error": null
+    },
+    {
+      "index": 63,
+      "class": "JUICE",
+      "image": "/Users/vinayakgoswamy/Downloads/images/JUICE/JUICE0119.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Albi Mango/Tropical Fruit Juice",
+        "Albi Heimische Kirsche (Domestic Cherry) Juice",
+        "Albi Fr\u00fchst\u00fccks Drink (Breakfast Drink) Juice",
+        "Albi Heimischer Apfel (Domestic Apple) Juice",
+        "Albi Strawberry/Passion Fruit/Berry Juice"
+      ],
+      "error": null
+    },
+    {
+      "index": 64,
+      "class": "JUICE",
+      "image": "/Users/vinayakgoswamy/Downloads/images/JUICE/JUICE0051.png",
+      "top1_correct": false,
+      "top3_correct": false,
+      "identified": [
+        "Peach",
+        "Lemon",
+        "Pomegranate",
+        "Orange"
+      ],
+      "error": null
+    },
+    {
+      "index": 65,
+      "class": "JUICE",
+      "image": "/Users/vinayakgoswamy/Downloads/images/JUICE/JUICE0194.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Multi-fruit nectar",
+        "Cloudy apple juice"
+      ],
+      "error": null
+    },
+    {
+      "index": 66,
+      "class": "MILK",
+      "image": "/Users/vinayakgoswamy/Downloads/images/MILK/MILK0071.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Long-life Mountain Farmer's Milk",
+        "Long-life Milk"
+      ],
+      "error": null
+    },
+    {
+      "index": 67,
+      "class": "MILK",
+      "image": "/Users/vinayakgoswamy/Downloads/images/MILK/MILK0116.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Lactose-free whole milk (3.5% fat)"
+      ],
+      "error": null
+    },
+    {
+      "index": 68,
+      "class": "MILK",
+      "image": "/Users/vinayakgoswamy/Downloads/images/MILK/MILK0093.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Low-fat, long-life pasture milk (1.5% fat)"
+      ],
+      "error": null
+    },
+    {
+      "index": 69,
+      "class": "MILK",
+      "image": "/Users/vinayakgoswamy/Downloads/images/MILK/MILK0041.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "UHT Low-Fat Milk (1.5% Fat)"
+      ],
+      "error": null
+    },
+    {
+      "index": 70,
+      "class": "MILK",
+      "image": "/Users/vinayakgoswamy/Downloads/images/MILK/MILK0094.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Long-life pasture milk (1.5% fat)"
+      ],
+      "error": null
+    },
+    {
+      "index": 71,
+      "class": "NUTS",
+      "image": "/Users/vinayakgoswamy/Downloads/images/NUTS/NUTS0090.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "coated peanuts",
+        "honey"
+      ],
+      "error": null
+    },
+    {
+      "index": 72,
+      "class": "NUTS",
+      "image": "/Users/vinayakgoswamy/Downloads/images/NUTS/NUTS0053.png",
+      "top1_correct": false,
+      "top3_correct": false,
+      "identified": [
+        "Pistachios"
+      ],
+      "error": null
+    },
+    {
+      "index": 73,
+      "class": "NUTS",
+      "image": "/Users/vinayakgoswamy/Downloads/images/NUTS/NUTS0068.png",
+      "top1_correct": false,
+      "top3_correct": false,
+      "identified": [
+        "Almonds"
+      ],
+      "error": null
+    },
+    {
+      "index": 74,
+      "class": "NUTS",
+      "image": "/Users/vinayakgoswamy/Downloads/images/NUTS/NUTS0165.png",
+      "top1_correct": false,
+      "top3_correct": false,
+      "identified": [
+        "Walnut Kernels"
+      ],
+      "error": null
+    },
+    {
+      "index": 75,
+      "class": "NUTS",
+      "image": "/Users/vinayakgoswamy/Downloads/images/NUTS/NUTS0018.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Cashew Nuts",
+        "Nuts (unspecified)"
+      ],
+      "error": null
+    },
+    {
+      "index": 76,
+      "class": "OIL",
+      "image": "/Users/vinayakgoswamy/Downloads/images/OIL/OIL0043.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Extra Virgin Olive Oil"
+      ],
+      "error": null
+    },
+    {
+      "index": 77,
+      "class": "OIL",
+      "image": "/Users/vinayakgoswamy/Downloads/images/OIL/OIL0136.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Extra Virgin Olive Oil"
+      ],
+      "error": null
+    },
+    {
+      "index": 78,
+      "class": "OIL",
+      "image": "/Users/vinayakgoswamy/Downloads/images/OIL/OIL0062.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Sunflower Oil"
+      ],
+      "error": null
+    },
+    {
+      "index": 79,
+      "class": "OIL",
+      "image": "/Users/vinayakgoswamy/Downloads/images/OIL/OIL0041.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Extra Virgin Olive Oil"
+      ],
+      "error": null
+    },
+    {
+      "index": 80,
+      "class": "OIL",
+      "image": "/Users/vinayakgoswamy/Downloads/images/OIL/OIL0118.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Monini Delicato Extra Virgin Olive Oil",
+        "Monini Classico Extra Virgin Olive Oil"
+      ],
+      "error": null
+    },
+    {
+      "index": 81,
+      "class": "PASTA",
+      "image": "/Users/vinayakgoswamy/Downloads/images/PASTA/PASTA0097.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Barilla Integrale Farfalle Pasta"
+      ],
+      "error": null
+    },
+    {
+      "index": 82,
+      "class": "PASTA",
+      "image": "/Users/vinayakgoswamy/Downloads/images/PASTA/PASTA0069.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Hochzeit Nudeln (Wedding Noodles)",
+        "H\u00f6rnle Pasta (Elbow Macaroni type)"
+      ],
+      "error": null
+    },
+    {
+      "index": 83,
+      "class": "PASTA",
+      "image": "/Users/vinayakgoswamy/Downloads/images/PASTA/PASTA0163.png",
+      "top1_correct": false,
+      "top3_correct": false,
+      "identified": [
+        "Spaghetti"
+      ],
+      "error": null
+    },
+    {
+      "index": 84,
+      "class": "PASTA",
+      "image": "/Users/vinayakgoswamy/Downloads/images/PASTA/PASTA0142.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Barilla Integrale Farfalle Pasta",
+        "Shrimp",
+        "Cucumber",
+        "Wheat Grains",
+        "Small red vegetable pieces",
+        "Green herbs"
+      ],
+      "error": null
+    },
+    {
+      "index": 85,
+      "class": "PASTA",
+      "image": "/Users/vinayakgoswamy/Downloads/images/PASTA/PASTA0056.png",
+      "top1_correct": false,
+      "top3_correct": false,
+      "identified": [
+        "Sp\u00e4tzle / Egg Noodles"
+      ],
+      "error": null
+    },
+    {
+      "index": 86,
+      "class": "RICE",
+      "image": "/Users/vinayakgoswamy/Downloads/images/RICE/RICE0083.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Pudding Rice"
+      ],
+      "error": null
+    },
+    {
+      "index": 87,
+      "class": "RICE",
+      "image": "/Users/vinayakgoswamy/Downloads/images/RICE/RICE0014.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Organic Long-Grain Brown Rice"
+      ],
+      "error": null
+    },
+    {
+      "index": 88,
+      "class": "RICE",
+      "image": "/Users/vinayakgoswamy/Downloads/images/RICE/RICE0058.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Parboiled Rice",
+        "Red Chili",
+        "Lime Wedge",
+        "Fresh Green Herbs"
+      ],
+      "error": null
+    },
+    {
+      "index": 89,
+      "class": "RICE",
+      "image": "/Users/vinayakgoswamy/Downloads/images/RICE/RICE0008.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Long-grain parboiled rice"
+      ],
+      "error": null
+    },
+    {
+      "index": 90,
+      "class": "RICE",
+      "image": "/Users/vinayakgoswamy/Downloads/images/RICE/RICE0080.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Basmati Rice"
+      ],
+      "error": null
+    },
+    {
+      "index": 91,
+      "class": "SODA",
+      "image": "/Users/vinayakgoswamy/Downloads/images/SODA/SODA0102.png",
+      "top1_correct": false,
+      "top3_correct": false,
+      "identified": [
+        "Alalwa Grape Light Beverage"
+      ],
+      "error": null
+    },
+    {
+      "index": 92,
+      "class": "SODA",
+      "image": "/Users/vinayakgoswamy/Downloads/images/SODA/SODA0068.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Fanta Lemon Soda",
+        "Fanta Orange Soda"
+      ],
+      "error": null
+    },
+    {
+      "index": 93,
+      "class": "SODA",
+      "image": "/Users/vinayakgoswamy/Downloads/images/SODA/SODA0016.png",
+      "top1_correct": false,
+      "top3_correct": false,
+      "identified": [
+        "Bionade (soft drink)"
+      ],
+      "error": null
+    },
+    {
+      "index": 94,
+      "class": "SODA",
+      "image": "/Users/vinayakgoswamy/Downloads/images/SODA/SODA0054.png",
+      "top1_correct": false,
+      "top3_correct": false,
+      "identified": [
+        "TOPSTAR Cola Light",
+        "Yellow carbonated soft drink"
+      ],
+      "error": null
+    },
+    {
+      "index": 95,
+      "class": "SODA",
+      "image": "/Users/vinayakgoswamy/Downloads/images/SODA/SODA0145.png",
+      "top1_correct": false,
+      "top3_correct": false,
+      "identified": [
+        "Pepsi light (soft drink)"
+      ],
+      "error": null
+    },
+    {
+      "index": 96,
+      "class": "SPICES",
+      "image": "/Users/vinayakgoswamy/Downloads/images/SPICES/SPICES0183.png",
+      "top1_correct": false,
+      "top3_correct": false,
+      "identified": [
+        "Dried fruit pieces",
+        "Black tea",
+        "Ginger",
+        "Cardamom",
+        "Cinnamon",
+        "Cloves",
+        "Black pepper",
+        "Herbal tea blend (unspecified calming type)",
+        "Unspecified spice or herbal blend"
+      ],
+      "error": null
+    },
+    {
+      "index": 97,
+      "class": "SPICES",
+      "image": "/Users/vinayakgoswamy/Downloads/images/SPICES/SPICES0080.png",
+      "top1_correct": false,
+      "top3_correct": false,
+      "identified": [
+        "Tandoori Seasoning Mix (Fuchs H\u00e4hnchen Tandoori W\u00fcrzmischung)",
+        "Harissa Seasoning (Fuchs Harissa W\u00fcrzer)",
+        "Herb Butter Seasoning (Fuchs Kr\u00e4uterbutter W\u00fcrzer)",
+        "Garam Masala"
+      ],
+      "error": null
+    },
+    {
+      "index": 98,
+      "class": "SPICES",
+      "image": "/Users/vinayakgoswamy/Downloads/images/SPICES/SPICES0054.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Chickpeas (Garbanzo Beans)",
+        "Diced Carrots",
+        "Green Herbs/Spices",
+        "Other Legumes/Grains"
+      ],
+      "error": null
+    },
+    {
+      "index": 99,
+      "class": "SPICES",
+      "image": "/Users/vinayakgoswamy/Downloads/images/SPICES/SPICES0167.png",
+      "top1_correct": false,
+      "top3_correct": false,
+      "identified": [
+        "Ground Cinnamon",
+        "Granulated Onions"
+      ],
+      "error": null
+    },
+    {
+      "index": 100,
+      "class": "SPICES",
+      "image": "/Users/vinayakgoswamy/Downloads/images/SPICES/SPICES0127.png",
+      "top1_correct": false,
+      "top3_correct": false,
+      "identified": [
+        "Mixed Peppercorns"
+      ],
+      "error": null
+    },
+    {
+      "index": 101,
+      "class": "SUGAR",
+      "image": "/Users/vinayakgoswamy/Downloads/images/SUGAR/SUGAR0050.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Gelling Sugar",
+        "Pectin",
+        "Sugar"
+      ],
+      "error": null
+    },
+    {
+      "index": 102,
+      "class": "SUGAR",
+      "image": "/Users/vinayakgoswamy/Downloads/images/SUGAR/SUGAR0113.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Powdered Sugar"
+      ],
+      "error": null
+    },
+    {
+      "index": 103,
+      "class": "SUGAR",
+      "image": "/Users/vinayakgoswamy/Downloads/images/SUGAR/SUGAR0117.png",
+      "top1_correct": false,
+      "top3_correct": false,
+      "identified": [
+        "S\u00dcDZUCKER Gelier Zucker 2:1"
+      ],
+      "error": null
+    },
+    {
+      "index": 104,
+      "class": "SUGAR",
+      "image": "/Users/vinayakgoswamy/Downloads/images/SUGAR/SUGAR0082.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Powdered Sugar",
+        "Red Currants",
+        "Blueberries",
+        "Strawberries",
+        "Small Pastry or Cookie"
+      ],
+      "error": null
+    },
+    {
+      "index": 105,
+      "class": "SUGAR",
+      "image": "/Users/vinayakgoswamy/Downloads/images/SUGAR/SUGAR0058.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Crushed Rock Sugar (Kr\u00fcmel Kandis)"
+      ],
+      "error": null
+    },
+    {
+      "index": 106,
+      "class": "TEA",
+      "image": "/Users/vinayakgoswamy/Downloads/images/TEA/TEA0073.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Ginger",
+        "Tea"
+      ],
+      "error": null
+    },
+    {
+      "index": 107,
+      "class": "TEA",
+      "image": "/Users/vinayakgoswamy/Downloads/images/TEA/TEA0135.png",
+      "top1_correct": false,
+      "top3_correct": false,
+      "identified": [
+        "Fennel",
+        "Chamomile blossoms",
+        "Valerian"
+      ],
+      "error": null
+    },
+    {
+      "index": 108,
+      "class": "TEA",
+      "image": "/Users/vinayakgoswamy/Downloads/images/TEA/TEA0071.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Guayusa Amaz\u00f3nica",
+        "Assorted Organic Teas"
+      ],
+      "error": null
+    },
+    {
+      "index": 109,
+      "class": "TEA",
+      "image": "/Users/vinayakgoswamy/Downloads/images/TEA/TEA0126.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Me\u00dfmer Fr\u00fcchte Mischung Tea",
+        "Me\u00dfmer MILDER Himmelsduft Tea",
+        "Me\u00dfmer Hagebutte Tea",
+        "Me\u00dfmer Milder Gr\u00fcner Tee",
+        "Me\u00dfmer Ingwer-Zitronen Tea",
+        "Me\u00dfmer Pfefferminze Tea",
+        "Me\u00dfmer Rooibos Tea",
+        "Me\u00dfmer Sanddorn Orange Tea",
+        "Me\u00dfmer Kamille Tea",
+        "Me\u00dfmer KLASSIK Black Tea",
+        "Me\u00dfmer Gr\u00fcner Tee Zitrone"
+      ],
+      "error": null
+    },
+    {
+      "index": 110,
+      "class": "TEA",
+      "image": "/Users/vinayakgoswamy/Downloads/images/TEA/TEA0275.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Frutee Fit Fruit Tea Blend",
+        "Dried Lighter-Colored Fruit Pieces",
+        "Dried Darker-Colored Fruit/Blossom Pieces",
+        "Dried Green Herbal/Leafy Pieces"
+      ],
+      "error": null
+    },
+    {
+      "index": 111,
+      "class": "TOMATO_SAUCE",
+      "image": "/Users/vinayakgoswamy/Downloads/images/TOMATO_SAUCE/TOMATO_SAUCE0067.png",
+      "top1_correct": false,
+      "top3_correct": false,
+      "identified": [
+        "Strained Tomatoes (Passata)"
+      ],
+      "error": null
+    },
+    {
+      "index": 112,
+      "class": "TOMATO_SAUCE",
+      "image": "/Users/vinayakgoswamy/Downloads/images/TOMATO_SAUCE/TOMATO_SAUCE0149.png",
+      "top1_correct": false,
+      "top3_correct": false,
+      "identified": [
+        "Canned Peeled Tomatoes"
+      ],
+      "error": null
+    },
+    {
+      "index": 113,
+      "class": "TOMATO_SAUCE",
+      "image": "/Users/vinayakgoswamy/Downloads/images/TOMATO_SAUCE/TOMATO_SAUCE0109.png",
+      "top1_correct": false,
+      "top3_correct": false,
+      "identified": [
+        "Bertolli Pecorino Pasta Sauce",
+        "Tomato",
+        "Pecorino Cheese"
+      ],
+      "error": null
+    },
+    {
+      "index": 114,
+      "class": "TOMATO_SAUCE",
+      "image": "/Users/vinayakgoswamy/Downloads/images/TOMATO_SAUCE/TOMATO_SAUCE0102.png",
+      "top1_correct": false,
+      "top3_correct": false,
+      "identified": [
+        "Barilla Olive Pasta Sauce",
+        "Olives",
+        "Tomatoes",
+        "Barilla Zucchini & Aubergine Pasta Sauce",
+        "Zucchini",
+        "Aubergine (Eggplant)"
+      ],
+      "error": null
+    },
+    {
+      "index": 115,
+      "class": "TOMATO_SAUCE",
+      "image": "/Users/vinayakgoswamy/Downloads/images/TOMATO_SAUCE/TOMATO_SAUCE0092.png",
+      "top1_correct": false,
+      "top3_correct": false,
+      "identified": [
+        "Barilla Bolognese Sauce",
+        "Ground Meat",
+        "Tomatoes",
+        "Onions",
+        "Carrots",
+        "Green Herbs"
+      ],
+      "error": null
+    },
+    {
+      "index": 116,
+      "class": "VINEGAR",
+      "image": "/Users/vinayakgoswamy/Downloads/images/VINEGAR/VINEGAR0056.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Balsamic Vinegar",
+        "Olive Oil"
+      ],
+      "error": null
+    },
+    {
+      "index": 117,
+      "class": "VINEGAR",
+      "image": "/Users/vinayakgoswamy/Downloads/images/VINEGAR/VINEGAR0035.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "White Balsamic Condiment",
+        "Balsamic Vinegar of Modena (IGP)"
+      ],
+      "error": null
+    },
+    {
+      "index": 118,
+      "class": "VINEGAR",
+      "image": "/Users/vinayakgoswamy/Downloads/images/VINEGAR/VINEGAR0130.png",
+      "top1_correct": false,
+      "top3_correct": false,
+      "identified": [
+        "Hengstenberg Altmeister Weinessig"
+      ],
+      "error": null
+    },
+    {
+      "index": 119,
+      "class": "VINEGAR",
+      "image": "/Users/vinayakgoswamy/Downloads/images/VINEGAR/VINEGAR0126.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "White Condimento Bianco",
+        "Balsamic Vinegar of Modena IGP"
+      ],
+      "error": null
+    },
+    {
+      "index": 120,
+      "class": "VINEGAR",
+      "image": "/Users/vinayakgoswamy/Downloads/images/VINEGAR/VINEGAR0023.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Herbal Vinegar",
+        "Molasses"
+      ],
+      "error": null
+    },
+    {
+      "index": 121,
+      "class": "WATER",
+      "image": "/Users/vinayakgoswamy/Downloads/images/WATER/WATER0024.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Spring Water"
+      ],
+      "error": null
+    },
+    {
+      "index": 122,
+      "class": "WATER",
+      "image": "/Users/vinayakgoswamy/Downloads/images/WATER/WATER0056.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Bottled Water (Gerolsteiner Medium)"
+      ],
+      "error": null
+    },
+    {
+      "index": 123,
+      "class": "WATER",
+      "image": "/Users/vinayakgoswamy/Downloads/images/WATER/WATER0078.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Bottled Spring Water"
+      ],
+      "error": null
+    },
+    {
+      "index": 124,
+      "class": "WATER",
+      "image": "/Users/vinayakgoswamy/Downloads/images/WATER/WATER0081.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Bottled water"
+      ],
+      "error": null
+    },
+    {
+      "index": 125,
+      "class": "WATER",
+      "image": "/Users/vinayakgoswamy/Downloads/images/WATER/WATER0216.png",
+      "top1_correct": true,
+      "top3_correct": true,
+      "identified": [
+        "Bottled Water"
+      ],
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+# ── Core ML & CV ──────────────────────────────────────────────────────────────
+ultralytics>=8.2.0          # YOLOv8
+torch>=2.1.0                # PyTorch (CPU build — see note below)
+torchvision>=0.16.0
+opencv-python>=4.9.0        # Image processing & drawing
+
+# ── Anthropic (REMOVED — replaced by free Gemini) ─────────────────────────────
+# ── Google Gemini (FREE — 1500 req/day, no credit card) ───────────────────────
+google-generativeai>=0.7.0
+
+# ── UI ────────────────────────────────────────────────────────────────────────
+streamlit>=1.35.0
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+Pillow>=10.0.0
+numpy>=1.26.0
+python-dotenv>=1.0.0        # for loading .env API key locally
+
+# ── NOTE: CPU-only PyTorch (saves ~2 GB vs CUDA build) ───────────────────────
+# Run this INSTEAD of `pip install torch torchvision` if you are CPU-only:
+#
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+#
+# YOLOv8 nano (yolov8n.pt) runs in ~0.3–1s per image on a modern CPU.
