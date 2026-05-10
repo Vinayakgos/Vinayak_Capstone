@@ -2,7 +2,7 @@
 ultralytics>=8.2.0          # YOLOv8
 torch>=2.1.0                # PyTorch (CPU build — see note below)
 torchvision>=0.16.0
-opencv-python>=4.9.0        # Image processing & drawing
+opencv-python-headless>=4.9.0        # Image processing & drawing
 
 # ── Anthropic (REMOVED — replaced by free Gemini) ─────────────────────────────
 # ── Google Gemini (FREE — 1500 req/day, no credit card) ───────────────────────
