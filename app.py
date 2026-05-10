@@ -15,9 +15,10 @@ import streamlit as st
 from PIL import Image
 
 # Load API key from .env automatically — no need to paste it in the UI
-load_dotenv(Path(__file__).parent.parent / ".env")
-api_key = os.environ.get("GEMINI_API_KEY", "")
-
+try:
+    api_key = st.secrets["GEMINI_API_KEY"]
+except (KeyError, FileNotFoundError):
+    api_key = os.environ.get("GEMINI_API_KEY", "")
 # Make sure the project root is importable
 sys.path.insert(0, str(Path(__file__).parent.parent))
 from pipeline import IngredientToRecipePipeline
